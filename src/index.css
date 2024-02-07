@@ -1,0 +1,14 @@
+:root{
+  --background:rgba(72,214,114,1);
+  --card-background:rgba(136,215,160,1);
+  --system-bar:rgba(52,175,95,1);
+}
+body{
+  margin: 0;
+  padding: 0;
+
+}
+*{
+  box-sizing: border-box;;
+}
+

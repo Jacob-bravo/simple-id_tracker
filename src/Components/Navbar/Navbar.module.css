@@ -1,0 +1,33 @@
+.container{
+    background: var(--system-bar);
+    height: 100px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.sectionHeader{
+    display: flex;
+    padding: 10px 30px 10px 30px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.actions{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-around;
+}
+.adminroute{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-direction: row;
+}
+.signOutRoute{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-direction: row;
+}

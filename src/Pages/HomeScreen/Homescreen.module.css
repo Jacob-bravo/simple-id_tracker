@@ -1,0 +1,48 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: space-between;
+}
+.searchSection{
+    margin: 10px 30px 0 0;
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    border: 1px solid var(--system-bar);
+    background-color: var(--card-background);
+}
+.searchSection>input{
+    width: 300px;
+    height: 30px;
+    padding-left: 5px;
+    border:none;
+    outline: none;
+    background-color: transparent;
+}
+.cardSection {
+    overflow-x: auto;
+    white-space: nowrap;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.cardItem {
+    display: inline-block;
+    width: 25vw; 
+    cursor: pointer;
+    margin-right: 10px; 
+}
+
+.cardContainer {
+    background-color: var(--card-background);
+    height: 30vh;
+    border-radius: 10px;
+    width: 100%; 
+}
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }
