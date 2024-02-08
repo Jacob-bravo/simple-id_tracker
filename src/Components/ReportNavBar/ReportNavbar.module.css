@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+    top: 0;
+    justify-content: space-between;
+}
+
+.titleContainer {
+    height: 100px;
+    width: 60%;
+    align-items: center;
+    border-bottom-left-radius: 60px;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    border-bottom-right-radius: 60px;
+    background-color: var(--system-bar);
+}
+
+.titleContainer>h2 {
+    font-size: 30px;
+}
+
+.logoSection>h2 {
+    padding: 10px;
+}
+
+.backButton {
+    margin: 20px 15px 0 0;
+    height: 60px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+    width: 150px;
+    border: 1px solid var(--system-bar);
+}
